@@ -1,0 +1,119 @@
+.main-div{
+    display: flex;
+    width: 100%;
+
+    background-color: white;
+    height: 99vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-div{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 243, 243);
+    border-radius: 15px;
+    gap: 8px;
+    padding-top: 40px;
+}
+
+.submain-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 40px;
+    padding: 20px 0;
+}
+
+.form-heading{
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.form-subheading{
+    display: flex;
+    font-size: 15px;
+    color: gray;
+}
+
+.input-main-div{
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    padding: 0 50px;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.input-box{
+    padding: 8px;
+    width: 30rem;
+    border-radius: 5px;
+    border-color: rgb(214, 206, 206);
+}
+
+.address-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8px;
+    background-color: #e8e8e8;
+   
+}
+
+.save-form{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-address{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.add-address{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
